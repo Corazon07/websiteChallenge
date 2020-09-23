@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <div id="navbar">
+  <nav id="">
+    <div class="logo ">
+      <a href="basic.html">
+          <img src="assets/img/logo.png" alt="" class="img-fluid">
+      </a>
+    </div>
+  <ul class ="nav-links">
+    <li><a href="#">Home</a></li>
+      <li class="drop-down">
+        <a href="">Company</a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+          </ul>
+      </li>
+      <li class="drop-down">
+          <a href="">Learn</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+            </ul>
+      </li><li class="drop-down">
+          <a href="">Legal</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+            </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+<br/>
+<br/>
+<br/><br/><br/><br/><br/><br/><br/>
+<div class="content">
+
+
+  <img class ="phone" src="assets/img/phone.jpg"style="padding:30px; padding-right:50px; height:500px" align="right"/>
+
+<h1 align="center">The Most Powerful<br/>Checking Account</h1>
+<p class ="check" align="center">Our checking account gives you higher returns <br/>than a savings account with no hidden fees</p>
+
+<form >
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email" ><input type="submit">
+  </div>
+  
+</form>
+<br/>
+<h3 style="letter-spacing: 2px;" align="center">Backed by the best</h3>
+<img class ="seq" src="assets/img/Seq.png"style="padding-left:200px; padding-right:50px;"/>
+<img class ="poly" src="assets/img/poly.png"style="padding:30px; padding-right:50px;" />
+<img class ="cons" src="assets/img/cons.jfif"style="padding-left:100px; padding-right:50px;" />
+
+<br/>
+<img class ="phone" src="assets/img/perct.jpg"style="padding:30px; padding-right:50px; height:450px" align="right"/>
+
+<h3 style="color:blue; padding-left:200px">Start saving for a rainy day fund</h3>
+
+<p style=" padding-left:200px; font-size: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eros augue, 
+  faucibus fringilla cursus nec, ultrices vel dolor. Mauris sed sapien pulvinar, malesuada est id, fringilla ligula. 
+  Donec viverra, velit semper pharetra dictum, nibh lacus finibus metus, id porta lacus nunc at turpis. Sed ac est velit.
+   Donec eu enim et elit lacinia pretium at eu purus. Etiam ultricies leo at libero vestibulum, nec lobortis libero cursus. 
+   Proin ac orci sed tortor viverra imperdiet eget ac ligula. Quisque ante mi, sagittis sit amet iaculis at, blandit quis lacus.</p>
+   <h2 style=" padding-left:200px; font-size: 60px;"align="center"><b>Sign Up early to save more</b></h1>
+    <p style=" padding-left:200px;padding-right: 600px; font-size: 25px;"align="center">Depending upon the level of your checking account you will receive a bonus</p>
+
+
+    <div class="tab1cards">
+      <div class="card">
+      
+        <img src="assets/img/basic.PNG" alt="safari" style="width: 250px;">
+        <p>Metal</p>
+        <h4><b>$0</b></h4>
+        <button type="button" class="btn btn-primary">Sign Up Now</button>
+        <ul class="panelBullets w-100 uniform">
+          <li>Use less bandwidth</li>
+          <li>Streamlined torrenting</li>
+          <li>Premium Support</li>
+        </ul>  
+
+      </div>
+
+      <div class="card">
+        <img src="assets/img/premium.PNG" alt="safari" style="width: 250px">
+        <p>Static</p>
+        <h4><b>$5</b></h4>
+        <button type="button" class="btn btn-primary" disabled>Up Next</button>
+        <ul class="panelBullets w-100 h-100 uniform">
+          <li>Security: block threats</li>
+          <li>No ads, no distractions*</li>
+          <li>High quality media playback</li>
+          <li class="">File conversion*</li>
+        </ul>
+      </div>
+
+
+      <div class="card">
+        <img src="assets/img/delux.PNG" alt="safari" style="width: 250px">
+        <p>Exclusive</p>
+        <h4><b>$8</b></h4>
+        <button type="button" class="btn btn-primary" disabled>Coming Soon</button>
+        <ul class="panelBullets w-100 uniform">
+          <li>Includes all Pro features</li>
+          <li>1-year of CyberGhost VPN</li>
+          <li>VPN on up to 5 devices</li>
+          <li class="">Be anonymous online</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+
+</body>
+</html>
